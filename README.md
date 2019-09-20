@@ -13,5 +13,5 @@ Der Datensatz umfasst zwei Spalten:
 - to: Name des Konsoriums, das als (möglicher) Kollaborationspartner benannt wird
 
 # verwendete Software
-- Gu, Z. (2014) circlize implements and enhances circular visualization in R. Bioinformatics.
-- Csardi G, Nepusz T: The igraph software package for complex network research, InterJournal, Complex Systems 1695. 2006. http://igraph.org
+- Gu, Z. (2014) circlize https://cran.r-project.org/package=circlize
+- Csardi G., Nepusz T. (2006) igraph https://cran.r-project.org/package=igraph
