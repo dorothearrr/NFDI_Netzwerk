@@ -14,4 +14,4 @@ Der Datensatz umfasst zwei Spalten:
 
 # verwendete Software
 - Gu, Z. (2014) circlize https://cran.r-project.org/package=circlize
-- Csardi G., Nepusz T. (2006) igraph https://cran.r-project.org/package=igraph
+- Csardi, G.; Nepusz, T. (2006) igraph https://cran.r-project.org/package=igraph
