@@ -20,9 +20,11 @@ Die Netzwerkdaten liegen in einer Datei vor.
 2020 reichten 17 Konsortien einen Letter of Intent ein. Ein Konsortium (ColDiRPS) nannte keine Kollaborationspartner und wurde von anderen Konsortien nicht erwähnt.
 
 Die Netzwerkdaten liegen in zwei Dateien vor.
+
 "NFDI_Netzwerk_2020.csv" umfasst zwei Spalten:
 * from: Name des Konsortiums, das (mögliche) Kollaborationspartner nennt
 * to: Name des Konsoriums, das als (möglicher) Kollaborationspartner benannt wird
+
 "Konsortien_2020.csv" umfasst zwei Spalten:
 * name: Name des Konsortiums
 * year: Jahr der verbindlichen Antragstellung
