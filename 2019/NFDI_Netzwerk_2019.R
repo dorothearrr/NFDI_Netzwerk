@@ -2,7 +2,7 @@ library(circlize)
 library(igraph)
 
 # Daten importieren
-NFDI_Netzwerk <- read.csv2("NFDI_Netzwerk.csv")
+NFDI_Netzwerk <- read.csv2("NFDI_Netzwerk_2019.csv")
 
 # Visualisierung: chord chart
 grid.col <- setNames(rainbow(length(unlist(dimnames(NFDI_Netzwerk)))), union(rownames(NFDI_Netzwerk), colnames(NFDI_Netzwerk)))
@@ -25,4 +25,6 @@ igraph::degree(NFDI_graph, v = V(NFDI_graph))
 igraph::betweenness(NFDI_graph, v = V(NFDI_graph), directed = FALSE)
 # Visualisierung
 vertex_attr(NFDI_graph)$color <- rep("#9ab6d6", length(V(NFDI_graph)))
-plot(NFDI_graph, vertex.size = 3*igraph::degree(NFDI_graph, mode = "in"), vertex.label.family = "Helvetica", vertex.label.color= "grey30", vertex.frame.color = "#7b91ab", edge.width = 2, edge.color = "#7b91ab", edge.curved = 0.5)
+set.seed(1)
+l <- layout_with_graphopt(NFDI_graph)
+plot(NFDI_graph, layout = l, vertex.size = 3*igraph::degree(NFDI_graph, mode = "in"), vertex.label.family = "Helvetica", vertex.label.color= "grey30", vertex.frame.color = "#7b91ab", edge.width = 2, edge.color = "#7b91ab", edge.curved = 0.5)
