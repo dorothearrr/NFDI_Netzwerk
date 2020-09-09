@@ -35,7 +35,6 @@ igraph::betweenness(NFDI_graph, v = V(NFDI_graph), directed = FALSE)
 # Visualisierung
 # Einfärbung basierend auf dem Jahr der verbindlichen Antragstellung
 vertex_attr(NFDI_graph)$color <- rep("#9ab6d6", length(V(NFDI_graph)))
-vertex_attr(NFDI_graph, "color", index = 17) <- "#acd69a"
 vertex_attr(NFDI_graph, "color", index = 18) <- "#acd69a"
 vertex_attr(NFDI_graph, "color", index = 19) <- "#acd69a"
 vertex_attr(NFDI_graph, "color", index = 20) <- "#acd69a"
@@ -44,7 +43,11 @@ vertex_attr(NFDI_graph, "color", index = 22) <- "#acd69a"
 vertex_attr(NFDI_graph, "color", index = 23) <- "#acd69a"
 vertex_attr(NFDI_graph, "color", index = 24) <- "#acd69a"
 vertex_attr(NFDI_graph, "color", index = 25) <- "#acd69a"
+vertex_attr(NFDI_graph, "color", index = 26) <- "#acd69a"
 
 
-plot(NFDI_graph, vertex.size = 2*igraph::degree(NFDI_graph, mode = "in"), vertex.label.family = "Helvetica", vertex.label.color= "grey30", vertex.frame.color = "#7b91ab", edge.width = 2, edge.color = "#7b91ab", edge.curved = 0.5)
+set.seed(1)
+l <- layout_with_graphopt(NFDI_graph)
+V(NFDI_graph)$label.cex = 0.75
+plot(NFDI_graph, layout = l, vertex.size = 1.3*igraph::degree(NFDI_graph, mode = "in"), vertex.label.family = "Helvetica", vertex.label.color= "grey20", vertex.frame.color = "#7b91ab", edge.width = 2, edge.color = "#7b91ab", edge.curved = 0.5)
 
