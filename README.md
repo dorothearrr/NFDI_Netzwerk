@@ -17,7 +17,7 @@ Die Netzwerkdaten liegen in einer Datei vor.
 * to: Name des Konsoriums, das als (möglicher) Kollaborationspartner benannt wird
 
 ## Netzwerkdaten 2020
-2020 reichten 17 Konsortien einen Letter of Intent ein. Ein Konsortium (ColDiRPS) nannte keine Kollaborationspartner und wurde von anderen Konsortien nicht erwähnt.
+2020 reichten 18 Konsortien einen Letter of Intent ein. Ein Konsortium (ColDiRPS) nannte keine Kollaborationspartner und wurde von anderen Konsortien nicht erwähnt. Das Konsortium BERD@NFDI wurde am 09.11.2020 ergänzt, da der LoI nachträglich veröffentlicht wurde.
 
 Die Netzwerkdaten liegen in zwei Dateien vor.
 
