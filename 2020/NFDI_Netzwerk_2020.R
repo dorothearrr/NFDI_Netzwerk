@@ -49,5 +49,5 @@ vertex_attr(NFDI_graph, "color", index = 26) <- "#acd69a"
 set.seed(1)
 l <- layout_with_graphopt(NFDI_graph)
 V(NFDI_graph)$label.cex = 0.75
-plot(NFDI_graph, layout = l, vertex.size = 1.3*igraph::degree(NFDI_graph, mode = "in"), vertex.label.family = "Helvetica", vertex.label.color= "grey20", vertex.frame.color = "#7b91ab", edge.width = 2, edge.color = "#7b91ab", edge.curved = 0.5)
+plot(NFDI_graph, layout = l, vertex.size = 1.3*igraph::degree(NFDI_graph, mode = "all"), vertex.label.family = "Helvetica", vertex.label.color= "grey20", vertex.frame.color = "#7b91ab", edge.width = 2, edge.color = "#7b91ab", edge.curved = 0.5)
 
