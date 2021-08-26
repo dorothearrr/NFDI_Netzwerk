@@ -2,7 +2,7 @@
 Daten und Skripte für die Analysen der Kollaborationen zwischen potentiellen NFDI-Konsortien, die 2019, 2020 beziehungsweise 2021 einen Letter of Intent für die verbindliche Antragstellung eingereicht haben.
 
 # Beschreibung der Datensätze
-Die Netzwerkdaten stammen aus den Letters of Intent, die als verbindliche Voranmeldung für eine Antragstellung 2019 beziehungsweise 2020 bei der DFG eingereicht wurden.
+Die Netzwerkdaten stammen aus den Letters of Intent, die als verbindliche Voranmeldung für eine Antragstellung 2019, 2020 beziehungsweise 2021 bei der DFG eingereicht wurden.
 Die Angaben wurden jeweils Abschnitt 3 entnommen ("Interfaces to other proposed NFDI consortia: brief description of existing agreements for collaboration and/or plans for future collaboration").
 
 * 2019: https://www.dfg.de/foerderung/programme/nfdi/absichtserklaerungen_2019/index.html
