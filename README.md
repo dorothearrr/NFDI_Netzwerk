@@ -31,7 +31,7 @@ Die Netzwerkdaten liegen in zwei Dateien vor.
 * year: Jahr der verbindlichen Antragstellung
 
 ## Netzwerkdaten 2021
-2021 werden vorraussichtlich 15 Konsortien einen Letter of Intent einreichen. Die Einreichungsfrist ist der 02.11.2021. Bisher haben 14 Konsortien einen Letter of Intent eingereicht. Angaben für das 15. Konsortium werden aktualisiert, sobald der Letter of Intent vorliegt.
+2021 reichten 15 Konsortien einen Letter of Intent ein. Die Einreichungsfrist ist der 02.11.2021.
 
 Die Netzwerkdaten liegen in zwei Dateien vor.
 
