@@ -34,17 +34,8 @@ igraph::betweenness(NFDI_graph, v = V(NFDI_graph), directed = FALSE)
 
 # Visualisierung
 # Einfärbung basierend auf dem Jahr der verbindlichen Antragstellung
-vertex_attr(NFDI_graph)$color <- rep("#9ab6d6", length(V(NFDI_graph)))
-vertex_attr(NFDI_graph, "color", index = 18) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 19) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 20) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 21) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 22) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 23) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 24) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 25) <- "#acd69a"
-vertex_attr(NFDI_graph, "color", index = 26) <- "#acd69a"
-
+NFDI_graph <- set_vertex_attr(NFDI_graph, "color", index = V(NFDI_graph)[Konsortien$year == "2019"], "#9ab6d6")
+NFDI_graph <- set_vertex_attr(NFDI_graph, "color", index = V(NFDI_graph)[Konsortien$year == "2020"], "#acd69a")
 
 set.seed(1)
 l <- layout_with_graphopt(NFDI_graph)
