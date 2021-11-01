@@ -1,6 +1,7 @@
 from,to
 DeBioData,NFDI4Chem
 DeBioData,NFDI4BIOIMAGE
+DeBioData,InnoMatSafety
 FAIRagro,NFDI4Biodiversity
 FAIRagro,NFDI4Earth
 FAIRagro,DataPLANT
@@ -8,6 +9,7 @@ InnoMatSafety,NFDI4Chem
 InnoMatSafety,NFDI4Ing
 InnoMatSafety,NFDI4Cat
 InnoMatSafety,NFDI-MatWerk
+InnoMatSafety,NFDI4Immuno
 InnoMatSafety,DeBioData
 InnoMatSafety,NFDI4BIOIMAGE
 METHODS,BERD@NFDI
@@ -19,6 +21,8 @@ METHODS,NFDI4Earth
 METHODS,NFDI4Ing
 METHODS,NFDI4Culture
 METHODS,NFDI4Chem
+METHODS,DataPLANT
+METHODS,PUNCH4NFDI
 NFDI4BIOIMAGE,DataPLANT
 NFDI4BIOIMAGE,GHGA
 NFDI4BIOIMAGE,NFDI-Neuro
