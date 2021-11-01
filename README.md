@@ -31,7 +31,7 @@ Die Netzwerkdaten liegen in zwei Dateien vor.
 * year: Jahr der verbindlichen Antragstellung
 
 ## Netzwerkdaten 2021
-2021 reichten 15 Konsortien einen Letter of Intent ein. Die Einreichungsfrist ist der 02.11.2021.
+2021 reichten 15 Konsortien einen Letter of Intent ein.
 
 Die Netzwerkdaten liegen in zwei Dateien vor.
 
